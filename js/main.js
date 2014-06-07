@@ -108,5 +108,5 @@ $(function(){
 			$( ".circle10" ).css( "background-color", "rgba(243, 156, 18, 1)" );
 		}
 	});
-
+	setTimeout(arguments.callee, 60000);
 });
