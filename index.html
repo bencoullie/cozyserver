@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nest: cozy surveillance service</title>
+    <meta name="description" content="Awww yeah, web app!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<!-- START BODY CONTENT -->
+    <div class="nestlogo">
+        <div id="brokenegg">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+            <g>
+                <circle fill="#FFFFFF" cx="150" cy="150" r="150"/>
+                <g>
+                    <g>
+                        <path fill="#F0A052" d="M294.904,149.428c0,80.027-64.877,144.9-144.905,144.9c-80.029,0-144.903-64.873-144.903-144.9
+                            C5.096,69.399,69.97,4.526,149.999,4.526C230.027,4.526,294.904,69.399,294.904,149.428z"/>
+                        <defs>
+                            <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="5.096" y="4.526" width="289.809" height="289.802">
+                                <feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+                            </filter>
+                        </defs>
+                        <mask maskUnits="userSpaceOnUse" x="5.096" y="4.526" width="289.809" height="289.802" id="SVGID_1_">
+                            <g filter="url(#Adobe_OpacityMaskFilter)">
+                                
+                                    <rect x="142.284" y="139.131" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 528.0859 231.8744)" fill="#EE933A" width="147.473" height="172.351"/>
+                            </g>
+                        </mask>
+                        <path mask="url(#SVGID_1_)" fill="#ED663A" d="M294.904,149.428c0,80.027-64.877,144.9-144.905,144.9
+                            c-80.029,0-144.903-64.873-144.903-144.9C5.096,69.399,69.97,4.526,149.999,4.526C230.027,4.526,294.904,69.399,294.904,149.428z
+                            "/>
+                    </g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M137.837,134.792c2.632-2.084,3.513-3.765,1.928-5.951
+                        c-1.344-1.857-0.897-3.68-0.259-5.64c2.172-6.674,4.137-13.422,6.423-20.058c0.903-2.63,0.355-4.063-2.047-5.435
+                        c-4.485-2.562-8.761-5.491-13.187-8.164c-1.729-1.043-2.623-2.221-2.65-4.4c-0.066-5.828-0.388-11.659-0.702-17.482
+                        c-0.096-1.794,0.492-2.903,2.07-3.859c11.358-6.879,22.931-8.478,35.085-2.023c14.147,7.515,24.433,18.999,32.904,32.207
+                        c18.729,29.199,24.871,60.711,14.912,94.257c-7.145,24.071-23.162,40.128-48.288,45.015c-24.709,4.804-47.036-0.289-64.52-19.731
+                        c-10.663-11.856-15.854-26.306-17.503-41.901c-3.972-37.529,7.822-69.724,33.766-96.905c0.714-0.746,1.534-1.389,2.545-2.298
+                        c1.382,3.748,0.695,7.338,0.976,10.83c0.074,0.925,0.179,1.872,0.058,2.782c-0.669,5.054,1.372,8.05,6.288,9.722
+                        c4.114,1.401,7.895,3.753,11.936,5.403c2.363,0.964,2.783,2.397,2.289,4.639c-1.163,5.306-2.068,10.672-3.374,15.94
+                        c-0.798,3.243-1.101,6.235,1.132,8.998C138.426,131.736,138.274,132.855,137.837,134.792z"/>
+                </g>
+            </g>
+            </svg>
+        </div>
+        <div id="egg">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve" id="egg">
+            <g>
+                <circle fill="#FFFFFF" cx="150" cy="150" r="150"/>
+                <g>
+                    <g>
+                        <path fill="#F0A052" d="M294.904,149.428c0,80.027-64.877,144.9-144.905,144.9c-80.029,0-144.903-64.873-144.903-144.9
+                            C5.096,69.399,69.97,4.526,149.999,4.526C230.027,4.526,294.904,69.399,294.904,149.428z"/>
+                        <defs>
+                            <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="5.096" y="4.526" width="289.809" height="289.802">
+                                <feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+                            </filter>
+                        </defs>
+                        <mask maskUnits="userSpaceOnUse" x="5.096" y="4.526" width="289.809" height="289.802" id="SVGID_1_">
+                            <g filter="url(#Adobe_OpacityMaskFilter)">
+                                
+                                    <rect x="142.284" y="139.131" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 528.0859 231.8744)" fill="#EE933A" width="147.473" height="172.351"/>
+                            </g>
+                        </mask>
+                        <path mask="url(#SVGID_1_)" fill="#ED663A" d="M294.904,149.428c0,80.027-64.877,144.9-144.905,144.9
+                            c-80.029,0-144.903-64.873-144.903-144.9C5.096,69.399,69.97,4.526,149.999,4.526C230.027,4.526,294.904,69.399,294.904,149.428z
+                            "/>
+                    </g>
+                    <path id="path2384_1_" sodipodi:nodetypes="css" fill="#FFFAF5" d="M150.402,64.45c72.34-0.373,103.025,169.954,1.102,169.954
+                        C43.794,234.404,78.924,64.82,150.402,64.45z"/>
+                </g>
+            </g>
+            </svg>
+        </div>
+    </div>
+    <div class="row firstrow">
+        <div class="boxcontainer">
+        <div class="circle1">
+            <img src="img/hatch.png" height="252" width="252" alt="">
+        </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle2">
+                <img src="img/M.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle3">
+                <img src="img/talent.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle4">
+                <img src="img/tandm.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle5">
+                <img src="img/goodprice.png" height="252" width="252" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="boxcontainer">
+            <div class="circle6">
+                <img src="img/dolphinz.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle7">
+                <img src="img/gilroy.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle8">
+                <img src="img/hush.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle9">
+                <img src="img/kungfu.png" height="252" width="252" alt="">
+            </div>
+        </div>
+            <div class="boxcontainer">
+            <div class="circle10">
+                <img src="img/croc.png" height="252" width="252" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+
+
+<!-- END BODY CONTENT -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='http://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</body>
+</html>

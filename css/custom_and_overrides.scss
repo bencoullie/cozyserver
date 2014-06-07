@@ -1,0 +1,101 @@
+
+/*--------------------------------------------- CUSTOM CSS ---------------------------------------------*/
+
+/*--- EASY SCSS OPTIONS ---*/
+
+$circle-color: rgba(white, 1);
+$bodyColor1: #222; /*-- #0A515F --*/
+$bodyColor2: #888; /*-- #208DA2 --*/
+
+/*--- GENERAL CSS ---*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;   
+	box-sizing: border-box;         
+}
+
+body {
+  /* fallback */
+  background-color: $bodyColor1;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left bottom, right top, from($bodyColor1), to($bodyColor2));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, $bodyColor2, $bodyColor1);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, $bodyColor2, $bodyColor1);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(left, $bodyColor2, $bodyColor1);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, $bodyColor2, $bodyColor1);
+}
+
+#brokenegg {
+	display: none;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid $circle-color;
+	-webkit-border-radius: 160px;
+	-moz-border-radius: 160px;
+	border-radius: 160px;
+	width: 320px;
+	height: 320px;
+	line-height: 320px;
+}
+
+#egg {
+	display: inherit;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid $circle-color;
+	-webkit-border-radius: 160px;
+	-moz-border-radius: 160px;
+	border-radius: 160px;
+	width: 320px;
+	height: 320px;
+	line-height: 320px;
+}
+
+.nestlogo {
+	margin: 30px auto 0;
+	width: 1709px;
+}
+
+img {
+	-webkit-border-radius: 252px;
+	-moz-border-radius: 252px;
+	border-radius: 252px;
+	-webkit-box-shadow: 0 0 6px rgba(40, 40, 40, 0.7);
+	-moz-box-shadow: 0 0 6px rgba(40, 40, 40, 0.7);
+	box-shadow: 0 0 6px rgba(40, 40, 40, 0.7);
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9, .circle10 {	
+	display: inline-block;
+	padding: 10px;
+	width: auto;
+	height: auto;
+	border: 1px solid $circle-color;
+	-webkit-border-radius: 136px;
+	-moz-border-radius: 136px;
+	border-radius: 136px;
+	-webkit-box-shadow: 0 0 6px rgba(40, 40, 40, 0.7);
+	-moz-box-shadow: 0 0 6px rgba(40, 40, 40, 0.7);
+	box-shadow: 0 0 6px rgba(40, 40, 40, 0.7);
+}
+
+.row {
+	margin: 20px auto 0;
+	width: 1709px;
+}
+
+.boxcontainer {
+	display: inline-block;
+	text-align: center;
+	width: 19.813%;
+}
