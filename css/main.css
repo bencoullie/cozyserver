@@ -593,17 +593,17 @@ textarea {
 
 body {
   /* fallback */
-  background-color: #222222;
+  background-color: #0a515f;
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, left bottom, right top, from(#222222), to(#888888));
+  background: -webkit-gradient(linear, left bottom, right top, from(#0a515f), to(#208da2));
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(left, #888888, #222222);
+  background: -webkit-linear-gradient(left, #208da2, #0a515f);
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(left, #888888, #222222);
+  background: -moz-linear-gradient(left, #208da2, #0a515f);
   /* IE 10 */
-  background: -ms-linear-gradient(left, #888888, #222222);
+  background: -ms-linear-gradient(left, #208da2, #0a515f);
   /* Opera 11.10+ */
-  background: -o-linear-gradient(left, #888888, #222222); }
+  background: -o-linear-gradient(left, #208da2, #0a515f); }
 
 #brokenegg {
   display: none;
