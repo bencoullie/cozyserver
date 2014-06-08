@@ -104,9 +104,9 @@ $(function(){
 			$( ".circle10" ).css( "background-color", "rgba(231, 76, 60, 1)" );
 			$( "#egg" ).css("display", "none");
 			$( "#brokenegg" ).css("display", "inherit");
+			console.log('shit');
 		} else {
 			$( ".circle10" ).css( "background-color", "rgba(243, 156, 18, 1)" );
 		}
 	});
-	setTimeout(arguments.callee, 60000);
 });
